@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-yellow: #fed00e;
+  --color-blue: #443dfc;
+  --color-navy: #0e0d39;
+  --color-off-white: #fafafb;
+  --color-muted: #6b6a85;
+  --color-gray-light: #e5e5ea;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-jakarta: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-rubik: "Rubik", ui-sans-serif, system-ui, sans-serif;
+  --font-lora: "Lora", ui-serif, Georgia, serif;
+  --font-satoshi: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-navy);
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Item #5: Visible focus indicators for keyboard navigation */
+  :focus-visible {
+    outline: 2px solid var(--color-blue);
+    outline-offset: 2px;
+  }
+}
