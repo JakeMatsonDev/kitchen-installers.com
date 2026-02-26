@@ -1,4 +1,5 @@
 // Item #19: Fix sitemap lastModified timestamps (no more new Date())
+export const dynamic = "force-static";
 import type { MetadataRoute } from "next";
 import { newYorkCities } from "@/lib/cities/new-york";
 import { newJerseyCities } from "@/lib/cities/new-jersey";

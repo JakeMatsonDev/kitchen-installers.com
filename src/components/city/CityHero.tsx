@@ -33,7 +33,7 @@ export default function CityHero({ city }: { city: CityData }) {
             </div>
             <div className="flex items-center gap-2">
               <div className="h-2 w-2 rounded-full bg-green-500" aria-hidden="true" />
-              2-Year Warranty
+              5-Year Warranty
             </div>
             <div className="flex items-center gap-2">
               <div className="h-2 w-2 rounded-full bg-green-500" aria-hidden="true" />

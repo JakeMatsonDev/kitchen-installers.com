@@ -61,7 +61,7 @@ export default function HeroSection() {
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-green-500" aria-hidden="true" />
-                2-Year Warranty
+                5-Year Warranty
               </div>
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-green-500" aria-hidden="true" />
@@ -79,8 +79,8 @@ export default function HeroSection() {
           >
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80"
-                alt="Modern IKEA kitchen installation in New York"
+                src="/images/gallery/img_6245.webp"
+                alt="Completed IKEA kitchen installation in New York — white shaker cabinets with butcher block countertops"
                 fill
                 priority
                 className="object-cover"

@@ -1,19 +1,20 @@
-// Item #14: Before/after project gallery page
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/layout/Container";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import JsonLd from "@/components/seo/JsonLd";
-import BeforeAfterSlider from "@/components/ui/BeforeAfterSlider";
+import SectionHeading from "@/components/ui/SectionHeading";
+import VideoCard from "@/components/ui/VideoCard";
+import ProjectGallery from "@/components/ui/ProjectGallery";
 import { breadcrumbJsonLd } from "@/lib/structured-data";
 import { buildMetadata } from "@/lib/seo";
 import { galleryProjects } from "@/lib/gallery-data";
+import { videoProjects } from "@/lib/video-gallery-data";
 
 export const metadata: Metadata = buildMetadata({
-  title: "Project Gallery — Before & After IKEA Kitchen Installations",
+  title: "Project Gallery — IKEA Kitchen Installation Photos & Videos",
   description:
-    "See before and after photos of our IKEA kitchen installations across New York and New Jersey. Real projects, real results from Kitchen Installers.",
+    "Browse real photos and videos of our IKEA kitchen installations across New York and New Jersey. See our craftsmanship in action — from cabinet assembly to finished kitchens.",
   path: "/gallery",
 });
 
@@ -41,12 +42,12 @@ export default function GalleryPage() {
                 Our Work
               </span>
               <h1 className="font-jakarta text-4xl font-bold text-navy md:text-5xl">
-                Before &amp; After Gallery
+                Project Gallery
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-muted">
-                See the transformations we&apos;ve made in kitchens across New York
-                and New Jersey. Every project showcases our attention to detail
-                and quality craftsmanship.
+                Browse real photos and videos from our IKEA kitchen
+                installations across New York and New Jersey. Every image is
+                from an actual project — see our craftsmanship for yourself.
               </p>
             </div>
           </Container>
@@ -55,37 +56,29 @@ export default function GalleryPage() {
 
       <section className="py-16 md:py-24">
         <Container>
+          <SectionHeading
+            label="Videos"
+            title="Our Work in Action"
+            subtitle="Watch our kitchen installation process from start to finish. Real projects filmed on-site across NY and NJ."
+            align="center"
+          />
           <div className="grid gap-10 md:grid-cols-2">
-            {galleryProjects.map((project) => (
-              <div
-                key={project.id}
-                className="overflow-hidden rounded-2xl border border-gray-light bg-white shadow-sm"
-              >
-                <BeforeAfterSlider
-                  beforeImage={project.beforeImage}
-                  afterImage={project.afterImage}
-                  beforeAlt={`Before: ${project.title}`}
-                  afterAlt={`After: ${project.title}`}
-                />
-                <div className="p-5">
-                  <div className="mb-2 flex items-center gap-2 text-xs">
-                    <span className="rounded-full bg-yellow/20 px-2.5 py-0.5 font-semibold text-navy">
-                      {project.service}
-                    </span>
-                    <span className="text-muted">
-                      {project.city}, {project.state}
-                    </span>
-                  </div>
-                  <h2 className="mb-1 font-jakarta text-lg font-bold text-navy">
-                    {project.title}
-                  </h2>
-                  <p className="text-sm leading-relaxed text-muted">
-                    {project.description}
-                  </p>
-                </div>
-              </div>
+            {videoProjects.map((project) => (
+              <VideoCard key={project.id} project={project} />
             ))}
           </div>
+        </Container>
+      </section>
+
+      <section className="py-16 md:py-24">
+        <Container>
+          <SectionHeading
+            label="Photo Gallery"
+            title="Our Kitchen Projects"
+            subtitle="Click any project to explore all photos. Tap an image to view full size."
+            align="center"
+          />
+          <ProjectGallery projects={galleryProjects} />
 
           <div className="mt-16 text-center">
             <p className="mb-4 text-muted">

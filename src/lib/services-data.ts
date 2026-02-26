@@ -10,24 +10,24 @@ export const servicesData: ServicePageData[] = [
       "Expert assembly of IKEA kitchen cabinets including SEKTION, METOD, and discontinued lines. We handle the entire build so you get a flawless, factory-quality result.",
     metaTitle: "IKEA Cabinet Assembly Services | Kitchen Installers",
     metaDescription:
-      "Professional IKEA kitchen cabinet assembly by certified installers. SEKTION & METOD experts with same-week scheduling. Get a free quote today!",
+      "Professional IKEA kitchen cabinet assembly by experienced installers. SEKTION & METOD experts with same-week scheduling. Get a free quote today!",
     h1: "Professional IKEA Cabinet Assembly Services",
     heroSubtitle:
-      "Our certified installers assemble every IKEA cabinet system with precision and care. From SEKTION base units to tall pantry cabinets, we turn flat-pack boxes into a stunning kitchen — fast, clean, and stress-free.",
+      "Our experienced installers assemble every IKEA cabinet system with precision and care. From SEKTION base units to tall pantry cabinets, we turn flat-pack boxes into a stunning kitchen — fast, clean, and stress-free.",
     longDescription: [
       "IKEA kitchen cabinets offer exceptional value, but assembling them correctly requires experience and the right tools. Our team specializes exclusively in IKEA cabinet systems, so we know every cam lock, dowel, and rail by heart. Whether you have a compact galley kitchen with ten cabinets or a sprawling open-plan layout with forty, we deliver consistent, factory-quality results every time.",
       "We work with the full SEKTION lineup — base cabinets, wall cabinets, high cabinets, and corner units — as well as older AKURUM frames for renovation projects. Each cabinet is squared, leveled, and secured to the wall with appropriate hardware for your wall type, whether it is drywall over studs, concrete, or masonry. We also install all interior fittings including shelves, drawer runners, hinges, and soft-close dampers.",
       "Proper assembly directly affects the longevity of your kitchen. A cabinet that is even slightly out of square can cause doors to misalign, drawers to bind, and countertops to sit unevenly. Our installers use laser levels and precision shims to ensure every unit is plumb and true before we move on to doors and drawer fronts.",
       "We coordinate seamlessly with the rest of your kitchen project. If you need countertop templating, appliance hookups, or splashback installation, we schedule our cabinet work so downstream trades can step in without delay. This integrated approach saves you time and prevents costly rework.",
-      "All of our cabinet assembly work is backed by a two-year workmanship warranty. If a hinge loosens, a drawer track shifts, or any assembly-related issue arises, we come back and make it right at no additional cost."
+      "All of our cabinet assembly work is backed by a five-year workmanship warranty. If a hinge loosens, a drawer track shifts, or any assembly-related issue arises, we come back and make it right at no additional cost."
     ],
     benefits: [
-      "Certified IKEA kitchen assembly specialists with 10+ years of experience",
+      "Experienced IKEA kitchen assembly specialists with 10+ years of experience",
       "Full SEKTION, METOD, and legacy AKURUM system expertise",
       "Laser-leveled installation for perfectly aligned doors and drawers",
       "Proper wall anchoring for drywall, concrete, and masonry surfaces",
       "Soft-close hinge and drawer runner calibration included",
-      "Two-year workmanship warranty on all assemblies",
+      "Five-year workmanship warranty on all assemblies",
       "Same-week scheduling available in most service areas",
       "Clean jobsite policy — we remove all packaging before we leave"
     ],
@@ -87,7 +87,7 @@ export const servicesData: ServicePageData[] = [
       {
         question: "Is there a warranty on your assembly work?",
         answer:
-          "Yes. We provide a two-year workmanship warranty covering hinge adjustments, drawer alignment, and any assembly-related issues that arise after installation."
+          "Yes. We provide a five-year workmanship warranty covering hinge adjustments, drawer alignment, and any assembly-related issues that arise after installation."
       }
     ],
     priceRange: "$1,200 - $4,500",
@@ -216,7 +216,7 @@ export const servicesData: ServicePageData[] = [
       "Whether you are upgrading a single appliance or outfitting an entire new kitchen, we sequence the work to minimize disruption. Appliances that depend on countertop and cabinet completion are scheduled last, and we coordinate with plumbers and electricians as needed to keep your project on track."
     ],
     benefits: [
-      "Certified installation for all major kitchen appliance brands",
+      "Professional installation for all major kitchen appliance brands",
       "Code-compliant electrical, water, and ventilation connections",
       "Integrated appliance door panel mounting and alignment",
       "Dishwasher water supply and drain hookup with backflow prevention",

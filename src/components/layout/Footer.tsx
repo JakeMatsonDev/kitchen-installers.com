@@ -60,7 +60,7 @@ export default function Footer() {
             <div className="mt-4 flex flex-col gap-2 text-sm text-white/70">
               <a
                 href={`mailto:${SITE_CONFIG.email}`}
-                className="transition-colors hover:text-yellow"
+                className="break-all transition-colors hover:text-yellow"
               >
                 {SITE_CONFIG.email}
               </a>

@@ -87,7 +87,7 @@ export default function TermsPage() {
 
             <h2>Warranty</h2>
             <p>
-              We offer a 2-year warranty on all installation work. This covers
+              We offer a 5-year warranty on all installation work. This covers
               workmanship defects including alignment, fitting, and structural
               integrity. This warranty does not cover damage caused by misuse,
               normal wear and tear, or issues with IKEA products themselves

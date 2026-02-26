@@ -166,15 +166,15 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "What warranty do you offer on installation?",
     answer:
-      "We offer a 2-year warranty on all installation work. This covers any issues related to the installation itself, such as alignment, fitting, and structural integrity. IKEA's own product warranty covers the cabinets and components themselves.",
+      "We offer a 5-year warranty on all installation work. This covers any issues related to the installation itself, such as alignment, fitting, and structural integrity. IKEA's own product warranty covers the cabinets and components themselves.",
   },
 ];
 
 export const ABOUT_FEATURES = [
-  "Certified IKEA kitchen installation specialists",
+  "Experienced IKEA kitchen installation specialists",
   "Over 500+ kitchens installed across NY & NJ",
   "Fully insured and background-checked team",
   "Transparent pricing with no hidden fees",
-  "2-year warranty on all installation work",
+  "5-year warranty on all installation work",
   "Coordination with plumbers & electricians included",
 ];

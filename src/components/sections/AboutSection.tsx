@@ -22,8 +22,8 @@ export default function AboutSection() {
           >
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80"
-                alt="Kitchen installation team at work"
+                src="/images/gallery/img_7877.webp"
+                alt="Completed IKEA kitchen with grey cabinets and professional gas range"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

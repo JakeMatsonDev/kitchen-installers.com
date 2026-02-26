@@ -12,7 +12,7 @@ import { ABOUT_FEATURES } from "@/lib/constants";
 export const metadata: Metadata = buildMetadata({
   title: "About Us — IKEA Kitchen Installation Experts | Kitchen Installers",
   description:
-    "Learn about Kitchen Installers — your trusted IKEA kitchen cabinet installation specialists serving New York and New Jersey. 500+ kitchens installed, 2-year warranty.",
+    "Learn about Kitchen Installers — your trusted IKEA kitchen cabinet installation specialists serving New York and New Jersey. 500+ kitchens installed, 5-year warranty.",
   path: "/about",
 });
 
@@ -43,7 +43,7 @@ export default function AboutPage() {
                 Your Trusted IKEA Kitchen Installation Experts
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-muted">
-                We specialize exclusively in IKEA kitchen cabinet installation across New York and New Jersey. With over 500 kitchens installed and a 2-year warranty on all work, we&apos;re the team homeowners trust for their kitchen renovations.
+                We specialize exclusively in IKEA kitchen cabinet installation across New York and New Jersey. With over 500 kitchens installed and a 5-year warranty on all work, we&apos;re the team homeowners trust for their kitchen renovations.
               </p>
             </div>
           </Container>
@@ -56,8 +56,8 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?w=800&q=80"
-                  alt="Kitchen installation team assembling IKEA cabinets"
+                  src="/images/gallery/img_7877.webp"
+                  alt="Completed IKEA kitchen installation with grey cabinets and professional gas range"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"

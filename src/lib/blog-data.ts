@@ -2152,7 +2152,7 @@ The best kitchen installers share these qualities:
 
 ### Why Choose Kitchen Installers?
 
-We specialize exclusively in IKEA kitchen installations across New Jersey, serving [Newark](/areas/new-jersey/newark), [Jersey City](/areas/new-jersey/jersey-city), [Hoboken](/areas/new-jersey/hoboken), [Princeton](/areas/new-jersey/princeton), and 20+ other NJ communities. With 500+ kitchens installed and a 2-year warranty, we make the process stress-free. [Get your free quote today](/contact).`,
+We specialize exclusively in IKEA kitchen installations across New Jersey, serving [Newark](/areas/new-jersey/newark), [Jersey City](/areas/new-jersey/jersey-city), [Hoboken](/areas/new-jersey/hoboken), [Princeton](/areas/new-jersey/princeton), and 20+ other NJ communities. With 500+ kitchens installed and a 5-year warranty, we make the process stress-free. [Get your free quote today](/contact).`,
     relatedSlugs: ["ikea-kitchen-installation-cost", "nj-kitchen-renovation-permits", "ikea-kitchen-installation-mistakes"],
   },
 

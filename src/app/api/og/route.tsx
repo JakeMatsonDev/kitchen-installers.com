@@ -107,7 +107,7 @@ export async function GET(request: NextRequest) {
           }}
         >
           <span>500+ Kitchens Installed</span>
-          <span>2-Year Warranty</span>
+          <span>5-Year Warranty</span>
           <span>Free Quotes</span>
         </div>
       </div>

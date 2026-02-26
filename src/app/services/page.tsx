@@ -52,7 +52,7 @@ export default function ServicesPage() {
                 Our IKEA Kitchen Installation Services
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-muted">
-                From start to finish, we handle every aspect of your IKEA kitchen installation. Our comprehensive services cover everything from cabinet assembly to final cleanup, all backed by our 2-year warranty.
+                From start to finish, we handle every aspect of your IKEA kitchen installation. Our comprehensive services cover everything from cabinet assembly to final cleanup, all backed by our 5-year warranty.
               </p>
             </div>
           </Container>

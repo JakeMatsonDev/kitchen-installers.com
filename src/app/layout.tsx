@@ -77,9 +77,6 @@ export default function RootLayout({
       className={`${inter.variable} ${jakarta.variable} ${rubik.variable} ${lora.variable}`}
     >
       <head>
-        {/* Item #23: Preconnect to external image domains */}
-        <link rel="preconnect" href="https://images.unsplash.com" />
-        <link rel="dns-prefetch" href="https://images.unsplash.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
 
         {/* Item #3: Google Analytics */}

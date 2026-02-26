@@ -43,7 +43,7 @@ export async function POST(request: NextRequest) {
     // const resend = new Resend(process.env.RESEND_API_KEY);
     // await resend.emails.send({
     //   from: 'Kitchen Installers <noreply@kitchen-installers.com>',
-    //   to: ['info@kitchen-installers.com'],
+    //   to: ['kitchencabinetinstallersus@gmail.com'],
     //   replyTo: body.email,
     //   subject: `New ${body.source === 'quote' ? 'Quote Request' : 'Contact Form'} from ${body.name}`,
     //   html: `
