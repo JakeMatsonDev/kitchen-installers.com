@@ -204,18 +204,16 @@ export default function QuoteSection() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="quote-area" className="mb-1.5 block text-sm font-medium text-navy">
-                    Service Area
+                  <label htmlFor="quote-zip" className="mb-1.5 block text-sm font-medium text-navy">
+                    Zip Code
                   </label>
-                  <select
-                    id="quote-area"
+                  <input
+                    id="quote-zip"
                     name="serviceArea"
-                    className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue bg-white"
-                  >
-                    <option value="">Select your state</option>
-                    <option value="New York">New York</option>
-                    <option value="New Jersey">New Jersey</option>
-                  </select>
+                    type="text"
+                    placeholder="e.g. 10001"
+                    className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
+                  />
                 </div>
               </div>
               <div>
