@@ -33,9 +33,7 @@ export default function QuoteSection() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          name: formData.get("name"),
           email: formData.get("email"),
-          phone: formData.get("phone"),
           serviceArea: formData.get("serviceArea"),
           message: formData.get("message"),
           source: "quote",
@@ -162,20 +160,6 @@ export default function QuoteSection() {
 
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
-                  <label htmlFor="quote-name" className="mb-1.5 block text-sm font-medium text-navy">
-                    Full Name
-                  </label>
-                  <input
-                    id="quote-name"
-                    name="name"
-                    type="text"
-                    placeholder="John Doe"
-                    required
-                    aria-required="true"
-                    className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
-                  />
-                </div>
-                <div>
                   <label htmlFor="quote-email" className="mb-1.5 block text-sm font-medium text-navy">
                     Email
                   </label>
@@ -184,22 +168,6 @@ export default function QuoteSection() {
                     name="email"
                     type="email"
                     placeholder="john@example.com"
-                    required
-                    aria-required="true"
-                    className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
-                  />
-                </div>
-              </div>
-              <div className="grid gap-5 sm:grid-cols-2">
-                <div>
-                  <label htmlFor="quote-phone" className="mb-1.5 block text-sm font-medium text-navy">
-                    Phone
-                  </label>
-                  <input
-                    id="quote-phone"
-                    name="phone"
-                    type="tel"
-                    placeholder="(555) 000-0000"
                     className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
                   />
                 </div>

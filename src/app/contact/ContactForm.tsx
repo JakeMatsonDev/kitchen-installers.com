@@ -29,9 +29,7 @@ export default function ContactForm() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          name: formData.get("name"),
           email: formData.get("email"),
-          phone: formData.get("phone"),
           serviceArea: formData.get("serviceArea"),
           message: formData.get("message"),
           source: "contact",
@@ -66,20 +64,6 @@ export default function ContactForm() {
 
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <label htmlFor="contact-name" className="mb-1.5 block text-sm font-medium text-navy">
-            Full Name
-          </label>
-          <input
-            id="contact-name"
-            name="name"
-            type="text"
-            placeholder="John Doe"
-            required
-            aria-required="true"
-            className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
-          />
-        </div>
-        <div>
           <label htmlFor="contact-email" className="mb-1.5 block text-sm font-medium text-navy">
             Email
           </label>
@@ -88,22 +72,6 @@ export default function ContactForm() {
             name="email"
             type="email"
             placeholder="john@example.com"
-            required
-            aria-required="true"
-            className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
-          />
-        </div>
-      </div>
-      <div className="grid gap-5 sm:grid-cols-2">
-        <div>
-          <label htmlFor="contact-phone" className="mb-1.5 block text-sm font-medium text-navy">
-            Phone
-          </label>
-          <input
-            id="contact-phone"
-            name="phone"
-            type="tel"
-            placeholder="(555) 000-0000"
             className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
           />
         </div>
