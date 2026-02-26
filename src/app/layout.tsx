@@ -42,10 +42,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Kitchen Installers",
-    // Item #4: Default OG image
     images: [
       {
-        url: "/api/og?title=Professional%20IKEA%20Kitchen%20Installation&subtitle=New%20York%20%26%20New%20Jersey",
+        url: "/images/gallery/img_6245.webp",
         width: 1200,
         height: 630,
         alt: "Kitchen Installers — Professional IKEA Kitchen Installation",
