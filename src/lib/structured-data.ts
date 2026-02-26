@@ -28,11 +28,8 @@ export function localBusinessJsonLd() {
     },
     // Item #9: sameAs for entity verification
     sameAs: [
-      SITE_CONFIG.social.facebook,
-      SITE_CONFIG.social.instagram,
-      SITE_CONFIG.social.google,
       SITE_CONFIG.social.yelp,
-      SITE_CONFIG.social.houzz,
+      SITE_CONFIG.social.thumbtack,
     ],
     // Item #11: Expanded areaServed with major cities
     areaServed: [

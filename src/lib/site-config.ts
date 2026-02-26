@@ -30,13 +30,11 @@ export const SITE_CONFIG = {
     "Sa 08:00-17:00",
   ],
 
-  // Social & Directory Links (update with real URLs)
+  // Social & Directory Links
   social: {
-    facebook: "https://www.facebook.com/kitcheninstallers",
-    instagram: "https://www.instagram.com/kitcheninstallers",
-    google: "https://g.page/kitchen-installers",
-    yelp: "https://www.yelp.com/biz/kitchen-installers",
-    houzz: "https://www.houzz.com/professionals/kitchen-installers",
+    thumbtack:
+      "https://www.thumbtack.com/ny/new-york/furniture-assembly/ikea-kitchen-cabinet-installation-ikea-only/service/518476018749095951",
+    yelp: "https://www.yelp.com/biz/ikea-kitchen-installers-new-york-2",
   },
 
   // Analytics (replace with real IDs)
