@@ -41,8 +41,13 @@ export default function QuoteSection() {
       });
 
       if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || "Something went wrong");
+        const text = await res.text();
+        let errorMsg = "Something went wrong";
+        try {
+          const data = JSON.parse(text);
+          errorMsg = data.error || errorMsg;
+        } catch {}
+        throw new Error(errorMsg);
       }
 
       router.push("/thank-you");

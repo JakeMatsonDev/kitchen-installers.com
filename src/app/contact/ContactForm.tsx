@@ -37,8 +37,13 @@ export default function ContactForm() {
       });
 
       if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || "Something went wrong");
+        const text = await res.text();
+        let errorMsg = "Something went wrong";
+        try {
+          const data = JSON.parse(text);
+          errorMsg = data.error || errorMsg;
+        } catch {}
+        throw new Error(errorMsg);
       }
 
       // Item #26: Redirect to thank-you page (enables GA4 conversion tracking)

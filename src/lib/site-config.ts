@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
   legalName: "Kitchen Installers LLC",
   phone: "(646) 258-0717",
   phoneRaw: "+16462580717", // For tel: links
-  email: "kitchencabinetinstallersus@gmail.com",
+  email: "newenglandkitcheninstallers@gmail.com",
   url: "https://www.kitchen-installers.com",
 
   // Physical Address (required for Google Local Pack)

@@ -7,6 +7,7 @@ import AreasSection from "@/components/sections/AreasSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import FAQSection from "@/components/sections/FAQSection";
 import QuoteSection from "@/components/sections/QuoteSection";
+import VideoShowcaseSection from "@/components/sections/VideoShowcaseSection";
 import JsonLd from "@/components/seo/JsonLd";
 import { faqJsonLd } from "@/lib/structured-data";
 import { FAQ_ITEMS } from "@/lib/constants";
@@ -33,6 +34,7 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <AboutSection />
+      <VideoShowcaseSection />
       <ProcessSection />
       <AreasSection />
       <TestimonialsSection />
