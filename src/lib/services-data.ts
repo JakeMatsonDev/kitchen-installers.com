@@ -35,7 +35,7 @@ export const servicesData: ServicePageData[] = [
       {
         title: "Pre-Installation Survey",
         description:
-          "We visit your home or review your IKEA kitchen plan to verify measurements, wall conditions, and plumbing or electrical clearances before assembly day."
+          "We visit your home or review your IKEA kitchen plan to verify measurements, wall conditions, and clearances before assembly day."
       },
       {
         title: "Inventory & Staging",
@@ -75,9 +75,9 @@ export const servicesData: ServicePageData[] = [
           "Absolutely. Our team is experienced with both the current SEKTION line and the discontinued AKURUM system, including sourcing compatible replacement parts when needed."
       },
       {
-        question: "Do you handle plumbing and electrical rough-ins behind the cabinets?",
+        question: "Do you cut holes for plumbing and electrical behind the cabinets?",
         answer:
-          "We cut access holes and notches for existing plumbing and electrical. If new rough-in work is required, we coordinate a licensed plumber or electrician through our trade coordination service."
+          "Yes, we cut access holes and notches in cabinet backs for existing plumbing and electrical lines. If new rough-in work is required, you'll need to arrange a licensed plumber or electrician before cabinet installation."
       },
       {
         question: "What if parts are missing or damaged in my IKEA order?",
@@ -125,7 +125,7 @@ export const servicesData: ServicePageData[] = [
       "Invisible color-matched seams for L-shaped and U-shaped layouts",
       "Proper moisture sealing on all exposed edges and cutouts",
       "Shimmed and leveled surfaces verified with precision straightedges",
-      "Coordination with plumbers for undermount sink fitting",
+      "Undermount sink cutouts ready for your plumber to connect",
       "Full cleanup of dust and offcuts after installation"
     ],
     processSteps: [
@@ -207,29 +207,27 @@ export const servicesData: ServicePageData[] = [
       "Professional kitchen appliance installation — dishwashers, ovens, cooktops, range hoods & fridges. Code-compliant hookups with same-week availability.",
     h1: "Professional Kitchen Appliance Installation",
     heroSubtitle:
-      "We install every major kitchen appliance safely and to code, from dishwashers and ovens to range hoods and integrated refrigerators. Our team handles electrical, water, and gas connections so your appliances work perfectly from day one.",
+      "We handle the physical installation, positioning, and securing of all major kitchen appliances — from dishwashers and ovens to range hoods and integrated refrigerators.",
     longDescription: [
-      "Installing kitchen appliances involves more than sliding a unit into a cavity. Each appliance type has specific electrical requirements, ventilation clearances, water supply needs, and anchoring specifications outlined by the manufacturer. Our installers follow every requirement precisely, ensuring safe operation and preserving your manufacturer warranty.",
-      "We install all common kitchen appliances: dishwashers, built-in ovens (single and double), cooktops (electric and induction), range hoods and ventilation systems, built-in microwaves, and integrated or freestanding refrigerators. For gas appliances, we coordinate licensed gas fitters to handle supply line connections while we manage the physical installation and cabinet modifications.",
+      "Installing kitchen appliances involves more than sliding a unit into a cavity. Each appliance type has specific ventilation clearances, anchoring specifications, and cabinet modifications outlined by the manufacturer. Our installers handle the physical installation precisely, ensuring safe mounting and preserving your manufacturer warranty.",
+      "We install all common kitchen appliances: dishwashers, built-in ovens (single and double), cooktops, range hoods and ventilation systems, built-in microwaves, and integrated or freestanding refrigerators. For gas, water, and electrical connections, you'll need a licensed plumber or electrician — we handle the physical placement and cabinet work.",
       "Integrated appliances — those hidden behind cabinet door fronts — require careful alignment so the door panel sits flush with adjacent cabinetry. We mount door panels to the appliance using the manufacturer's bracket kit, adjust hinge tension, and fine-tune alignment so the finished result looks seamless.",
-      "Dishwasher installation includes connecting the water supply, routing the drain hose with a proper high loop or air gap to prevent backflow, leveling the unit, and securing it to the countertop or cabinet to prevent tipping. We test-run every dishwasher on-site to verify there are no leaks before we leave.",
-      "Whether you are upgrading a single appliance or outfitting an entire new kitchen, we sequence the work to minimize disruption. Appliances that depend on countertop and cabinet completion are scheduled last, and we coordinate with plumbers and electricians as needed to keep your project on track."
+      "Whether you are upgrading a single appliance or outfitting an entire new kitchen, we sequence the work to minimize disruption. Appliances that depend on countertop and cabinet completion are scheduled last."
     ],
     benefits: [
       "Professional installation for all major kitchen appliance brands",
-      "Code-compliant electrical, water, and ventilation connections",
       "Integrated appliance door panel mounting and alignment",
-      "Dishwasher water supply and drain hookup with backflow prevention",
-      "Range hood ducting and ventilation verification",
-      "On-site test runs to confirm proper operation before we leave",
-      "Coordination with licensed gas fitters and electricians when needed",
+      "Cabinet modifications and cutouts for each appliance",
+      "Range hood mounting and ventilation duct fitting",
+      "Precise leveling and secure anchoring of all units",
+      "On-site verification of proper fit before we leave",
       "Manufacturer warranty preserved through spec-compliant installation"
     ],
     processSteps: [
       {
         title: "Appliance & Site Review",
         description:
-          "We review your appliance specifications, verify that electrical circuits, water lines, and ventilation are in place, and identify any modifications needed before installation day."
+          "We review your appliance specifications, verify cabinet dimensions and ventilation requirements, and identify any modifications needed before installation day."
       },
       {
         title: "Cabinet Preparation",
@@ -244,7 +242,7 @@ export const servicesData: ServicePageData[] = [
       {
         title: "Connections & Hookups",
         description:
-          "We connect water supply lines, drain hoses, electrical circuits, and ventilation ducting. Gas connections are handled by our licensed gas fitting partners."
+          "We fit ventilation ducting and verify all physical connections are secure. Water, gas, and electrical hookups should be handled by your licensed plumber or electrician."
       },
       {
         title: "Testing & Handover",
@@ -256,7 +254,7 @@ export const servicesData: ServicePageData[] = [
       {
         question: "Do you install gas cooktops and ovens?",
         answer:
-          "We handle the physical installation and cabinet modifications for gas appliances. The actual gas line connection is performed by a licensed gas fitter, which we can coordinate as part of our trade coordination service."
+          "We handle the physical installation and cabinet modifications for gas appliances. The actual gas line connection must be performed by a licensed gas fitter, which you'll need to arrange separately."
       },
       {
         question: "Can you install appliances that are not from IKEA?",
@@ -266,7 +264,7 @@ export const servicesData: ServicePageData[] = [
       {
         question: "Do I need an electrician for appliance installation?",
         answer:
-          "If your existing electrical circuits match the appliance requirements, no additional electrical work is needed. If a new dedicated circuit or outlet type is required, we coordinate a licensed electrician through our network."
+          "If your existing electrical circuits match the appliance requirements, no additional electrical work is needed. If a new dedicated circuit or outlet type is required, you'll need to hire a licensed electrician before installation day."
       },
       {
         question: "Will you remove my old appliances?",
@@ -288,7 +286,7 @@ export const servicesData: ServicePageData[] = [
     relatedServices: [
       "ikea-cabinet-assembly",
       "countertop-installation",
-      "trade-coordination"
+      "kitchen-removal"
     ]
   },
 
@@ -306,15 +304,15 @@ export const servicesData: ServicePageData[] = [
     heroSubtitle:
       "Before your new kitchen can go in, the old one has to come out. We handle the full removal — cabinets, countertops, splashbacks, flooring, and appliances — leaving you with a clean, level space that is ready for your new installation.",
     longDescription: [
-      "A proper kitchen removal sets the stage for a successful new installation. Rushing this step can damage walls, flooring, and plumbing, leading to costly repairs down the line. Our removal team works methodically, disconnecting services first, then removing components in the correct sequence to protect the surrounding structure.",
-      "We start by disconnecting water supply lines, drain connections, electrical circuits, and gas lines (through our licensed partners). Appliances are carefully removed and either set aside for your reuse, donated, or hauled to a recycling facility. We then remove countertops, detach wall and base cabinets, and strip splashbacks and wall tiles.",
+      "A proper kitchen removal sets the stage for a successful new installation. Rushing this step can damage walls, flooring, and surrounding structures. Our removal team works methodically, removing components in the correct sequence to protect everything around the work area.",
+      "We carefully remove appliances and either set them aside for your reuse, donate, or haul them to a recycling facility. We then remove countertops, detach wall and base cabinets, and strip splashbacks and wall tiles. Note: disconnection of water, gas, and electrical services must be done by a licensed plumber or electrician before our removal begins.",
       "Wall repair is a critical part of the process. Removing cabinets and tiles inevitably leaves anchor holes, adhesive residue, and sometimes damaged drywall. We patch holes, scrape adhesive, and skim-coat damaged sections so the walls are smooth and ready for your new splashback or paint.",
       "Flooring under old cabinets is often missing or in poor condition. We assess the subfloor and advise whether a patch, leveling compound, or full replacement is needed before new cabinets go in. Getting the floor right at this stage prevents problems with cabinet leveling later.",
-      "All debris is sorted for responsible disposal. Wood, metal, and cardboard are separated for recycling, and we haul everything away in a single trip. You are left with a clean, swept space and a detailed condition report noting any plumbing, electrical, or structural items to address before the new kitchen is installed."
+      "All debris is sorted for responsible disposal. Wood, metal, and cardboard are separated for recycling, and we haul everything away in a single trip. You are left with a clean, swept space and a detailed condition report noting any structural items to address before the new kitchen is installed."
     ],
     benefits: [
-      "Systematic removal that protects walls, floors, and plumbing",
-      "Safe disconnection of water, electrical, and gas services",
+      "Systematic removal that protects walls, floors, and surrounding structures",
+      "Careful appliance removal with recycling and donation options",
       "Appliance removal with recycling and donation options",
       "Wall patching and adhesive removal included",
       "Subfloor assessment and leveling recommendations",
@@ -324,9 +322,9 @@ export const servicesData: ServicePageData[] = [
     ],
     processSteps: [
       {
-        title: "Service Disconnection",
+        title: "Pre-Removal Check",
         description:
-          "Water, electrical, and gas services are safely disconnected. We cap or isolate all lines to prevent leaks or hazards during the removal process."
+          "We verify that all water, gas, and electrical services have been disconnected by your licensed plumber or electrician before we begin the removal."
       },
       {
         title: "Appliance Removal",
@@ -358,7 +356,7 @@ export const servicesData: ServicePageData[] = [
       {
         question: "Do you disconnect gas lines?",
         answer:
-          "Gas disconnection is performed by a licensed gas fitter, which we coordinate as part of the job. The cost is included in your removal quote."
+          "Gas disconnection must be performed by a licensed gas fitter before we begin removal. You'll need to arrange this separately."
       },
       {
         question: "Can I keep some of my old appliances?",
@@ -384,109 +382,11 @@ export const servicesData: ServicePageData[] = [
     priceRange: "$600 - $2,500",
     relatedServices: [
       "ikea-cabinet-assembly",
-      "trade-coordination",
       "packaging-cleanup"
     ]
   },
 
-  // ─── 5. Trade Coordination ──────────────────────────────────────────
-  {
-    slug: "trade-coordination",
-    icon: "Users",
-    title: "Trade Coordination",
-    shortDescription:
-      "We schedule and manage plumbers, electricians, gas fitters, and other licensed trades so your kitchen project stays on time and on budget.",
-    metaTitle: "Trade Coordination for Kitchens | Kitchen Installers",
-    metaDescription:
-      "Kitchen trade coordination — we schedule plumbers, electricians & gas fitters around your install. One point of contact, no scheduling headaches.",
-    h1: "Kitchen Trade Coordination Services",
-    heroSubtitle:
-      "A kitchen installation involves multiple trades working in a precise sequence. We act as your single point of contact, scheduling and managing plumbers, electricians, gas fitters, and tilers so every trade shows up at the right time and your project stays on track.",
-    longDescription: [
-      "A kitchen renovation typically requires at least three licensed trades in addition to the cabinet installer: a plumber for water supply and drainage, an electrician for circuits and lighting, and often a gas fitter for cooktop or oven connections. Coordinating these trades yourself means juggling multiple schedules, managing dependencies, and troubleshooting when one delay cascades into others.",
-      "Our trade coordination service removes that burden entirely. We maintain a vetted network of licensed plumbers, electricians, gas fitters, tilers, and painters who specialize in kitchen work. Because they work with us regularly, they understand our sequencing requirements and show up prepared with the right materials for your specific project.",
-      "Sequencing is the key to an efficient kitchen installation. Rough-in plumbing and electrical must happen before cabinets go in. Cabinets must be complete before countertop templating. Countertops must be installed before the plumber returns for final sink connections. Getting this order wrong costs days of delay and can require expensive rework.",
-      "We build a detailed project schedule at the quoting stage, mapping every trade to specific days and identifying the critical path. You receive a clear timeline showing when each trade will be on-site and what needs to be completed before they arrive. We manage day-to-day communication with all trades so you deal with one phone number, not five.",
-      "If unexpected issues arise — a hidden pipe behind a wall, an electrical panel that needs upgrading, or a delayed material delivery — we adjust the schedule in real time, communicate changes to all affected trades, and keep you informed every step of the way."
-    ],
-    benefits: [
-      "Single point of contact for all trades on your kitchen project",
-      "Vetted network of licensed plumbers, electricians, and gas fitters",
-      "Optimized scheduling that eliminates idle days between trades",
-      "Detailed project timeline provided before work begins",
-      "Real-time schedule adjustments when unexpected issues arise",
-      "Reduced overall project duration through efficient sequencing",
-      "Cost savings from bundled trade rates through our network",
-      "Daily progress updates so you always know what is happening"
-    ],
-    processSteps: [
-      {
-        title: "Scope & Trade Assessment",
-        description:
-          "We review your kitchen plan and identify every trade required — plumbing, electrical, gas, tiling, painting — along with the specific tasks each will perform."
-      },
-      {
-        title: "Schedule Building",
-        description:
-          "We create a day-by-day project timeline that sequences each trade in the correct order, accounting for lead times, curing periods, and inspection requirements."
-      },
-      {
-        title: "Trade Booking & Briefing",
-        description:
-          "Each trade is booked for their designated dates and briefed on the scope, site conditions, and materials required for your specific kitchen."
-      },
-      {
-        title: "On-Site Management",
-        description:
-          "We oversee each trade visit, verify work quality, resolve conflicts, and adjust the schedule in real time if any issues arise."
-      },
-      {
-        title: "Final Walkthrough",
-        description:
-          "Once all trades have completed their work, we conduct a final walkthrough with you to confirm every item is finished to standard."
-      }
-    ],
-    faqItems: [
-      {
-        question: "Which trades do you coordinate?",
-        answer:
-          "We coordinate plumbers, electricians, gas fitters, tilers, painters, flooring installers, and any other licensed trade your kitchen project requires."
-      },
-      {
-        question: "Do I pay the trades directly or through you?",
-        answer:
-          "You receive a single consolidated quote from us that includes all trade costs. We handle payment to each trade so you have one invoice and one point of accountability."
-      },
-      {
-        question: "Are the tradespeople licensed and insured?",
-        answer:
-          "Yes. Every trade in our network holds the required state licenses, carries liability insurance, and has been vetted through our quality assurance process."
-      },
-      {
-        question: "How much time does trade coordination save?",
-        answer:
-          "On average, coordinated projects finish 3-5 days faster than self-managed ones because idle time between trades is minimized and scheduling conflicts are avoided."
-      },
-      {
-        question: "What happens if a trade cannot make their scheduled date?",
-        answer:
-          "We maintain backup tradespeople for every discipline. If a scheduling conflict arises, we rebook immediately and adjust the rest of the timeline to keep your project on track."
-      },
-      {
-        question: "Can I use my own plumber or electrician instead?",
-        answer:
-          "Absolutely. We are happy to work with your preferred tradespeople. We will include them in the project schedule and coordinate their visits alongside our network trades."
-      }
-    ],
-    priceRange: "$500 - $2,000",
-    relatedServices: [
-      "ikea-cabinet-assembly",
-      "appliance-installation",
-      "kitchen-removal"
-    ]
-  },
-
-  // ─── 6. Splashback Installation ─────────────────────────────────────
+  // ─── 5. Splashback Installation ─────────────────────────────────────
   {
     slug: "splashback-installation",
     icon: "PaintBucket",
@@ -599,13 +499,13 @@ export const servicesData: ServicePageData[] = [
     longDescription: [
       "The gap between the top of wall cabinets and the ceiling is one of the most common eyesores in a kitchen renovation. It collects dust, looks unfinished, and wastes space. A well-constructed bulkhead eliminates all three problems, giving your kitchen the polished, custom look of a high-end installation at a fraction of the cost.",
       "Our bulkheads are framed with lightweight steel or timber, depending on your ceiling structure and local building requirements. The frame is securely anchored to ceiling joists and wall studs, then clad in moisture-resistant plasterboard. All joints are taped, mudded, and sanded smooth so the finished bulkhead blends seamlessly with your ceiling.",
-      "Bulkheads serve a practical purpose beyond aesthetics. They provide a concealed channel for range hood ducting, electrical wiring, plumbing vents, and LED lighting strips. We coordinate with electricians and plumbers to route services through the bulkhead before it is closed up, eliminating the need for exposed pipes or conduit.",
+      "Bulkheads serve a practical purpose beyond aesthetics. They provide a concealed channel for range hood ducting and LED lighting strips. If you need wiring or plumbing routed through the bulkhead, your electrician or plumber should complete that work before we close it up.",
       "We build bulkheads in various profiles to match your kitchen design. A standard box bulkhead sits flush with the front of your wall cabinets. A stepped bulkhead extends past the cabinet face to create a shadow line or accommodate recessed lighting. An angled bulkhead follows a sloped ceiling line for attic or loft kitchens.",
-      "Every bulkhead we build is finished to a paint-ready or paint-complete standard. We can match your existing ceiling texture or deliver a smooth finish ready for your painter. If you want integrated LED strip lighting along the bottom edge, we install the channel and wiring so your electrician can make the final connection."
+      "Every bulkhead we build is finished to a paint-ready or paint-complete standard. We can match your existing ceiling texture or deliver a smooth finish ready for your painter. If you want integrated LED strip lighting along the bottom edge, we install the channel — your electrician handles the final connection."
     ],
     benefits: [
       "Eliminates the dust-collecting gap above wall cabinets",
-      "Conceals range hood ducting, wiring, and plumbing vents",
+      "Conceals range hood ducting for a clean look",
       "Moisture-resistant plasterboard rated for kitchen environments",
       "Seamless plaster finish that blends with your ceiling",
       "Multiple profiles available: box, stepped, and angled",
@@ -622,7 +522,7 @@ export const servicesData: ServicePageData[] = [
       {
         title: "Service Routing",
         description:
-          "Before the bulkhead is closed, electricians and plumbers route any ducting, wiring, or plumbing that will be concealed inside the structure."
+          "Before the bulkhead is closed, any ducting is routed inside the structure. If you need wiring or plumbing concealed, your electrician or plumber should complete this before we proceed."
       },
       {
         title: "Framing & Cladding",

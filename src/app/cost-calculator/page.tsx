@@ -43,8 +43,8 @@ export default function CostCalculatorPage() {
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-muted">
                 Get an instant estimate for your IKEA kitchen installation in
-                New York or New Jersey. Adjust the sliders below and add any
-                extra services you need.
+                New York or New Jersey. Adjust the sliders below to match
+                your project.
               </p>
             </div>
           </Container>
@@ -63,19 +63,18 @@ export default function CostCalculatorPage() {
               <p>
                 Our IKEA kitchen installation pricing is based on the scope of
                 your project. The main factors that determine cost are the
-                number of cabinets, countertop length, and any additional
-                services you need like old kitchen removal or appliance
-                installation.
+                number of cabinets and whether you need countertop installation.
+                We charge $190–$260 per cabinet depending on complexity.
               </p>
               <p>
                 The calculator above provides an estimate based on average
-                project costs in the NY/NJ area. Your actual quote may differ
-                based on specific site conditions, cabinet complexity (corner
-                units, high cabinets), and accessibility.
+                project costs. Your actual quote may differ based on specific
+                site conditions, cabinet complexity (corner units, high
+                cabinets), and accessibility.
               </p>
               <p>
                 For an exact price, send us your IKEA kitchen plan and we&apos;ll
-                provide a detailed, line-by-line quote within 24 hours — free
+                provide a detailed, line-by-line quote within 3 hours — free
                 and with no obligation.
               </p>
             </div>

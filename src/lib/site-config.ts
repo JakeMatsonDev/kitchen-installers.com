@@ -39,7 +39,7 @@ export const SITE_CONFIG = {
 
   // Analytics (replace with real IDs)
   analytics: {
-    gaId: "G-XXXXXXXXXX", // Google Analytics 4 Measurement ID
+    gaId: "G-01B623SVR4", // Google Analytics 4 Measurement ID
     gtmId: "GTM-XXXXXXX", // Google Tag Manager ID
   },
 } as const;

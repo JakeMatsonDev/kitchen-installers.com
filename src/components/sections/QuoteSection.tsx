@@ -7,11 +7,13 @@ import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, CheckCircle } from "lucide-react";
 import Container from "../layout/Container";
 import SectionHeading from "../ui/SectionHeading";
+import FileUpload from "../ui/FileUpload";
 import { SITE_CONFIG } from "@/lib/site-config";
 
 export default function QuoteSection() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
+  const [file, setFile] = useState<File | null>(null);
   const router = useRouter();
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
@@ -29,15 +31,16 @@ export default function QuoteSection() {
     }
 
     try {
+      const payload = new FormData();
+      payload.append("email", formData.get("email") as string);
+      payload.append("serviceArea", formData.get("serviceArea") as string);
+      payload.append("message", formData.get("message") as string);
+      payload.append("source", "quote");
+      if (file) payload.append("attachment", file);
+
       const res = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          email: formData.get("email"),
-          serviceArea: formData.get("serviceArea"),
-          message: formData.get("message"),
-          source: "quote",
-        }),
+        body: payload,
       });
 
       if (!res.ok) {
@@ -58,12 +61,12 @@ export default function QuoteSection() {
   };
 
   return (
-    <section id="quote" className="bg-navy py-20 md:py-28">
+    <section id="quote" className="overflow-hidden bg-navy py-20 md:py-28">
       <Container>
         <SectionHeading
           label="Get Started"
           title="Request a Free Quote"
-          subtitle="Send us your IKEA kitchen plan and we'll provide a detailed, no-obligation quote within 24 hours."
+          subtitle="Upload your IKEA plan — free quote within 3 hours."
           light
         />
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-20">
@@ -130,15 +133,19 @@ export default function QuoteSection() {
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-yellow" aria-hidden="true" />
-                  Detailed breakdown of costs
+                  Detailed cost breakdown — no surprises
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-yellow" aria-hidden="true" />
-                  Response within 24 hours
+                  Response within 3 hours
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle size={16} className="text-yellow" aria-hidden="true" />
-                  Expert advice on your IKEA plan
+                  Fully insured — your home is protected
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle size={16} className="text-yellow" aria-hidden="true" />
+                  No pressure — we never do hard sells
                 </li>
               </ul>
             </div>
@@ -166,12 +173,13 @@ export default function QuoteSection() {
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>
                   <label htmlFor="quote-email" className="mb-1.5 block text-sm font-medium text-navy">
-                    Email
+                    Email <span className="text-red-500">*</span>
                   </label>
                   <input
                     id="quote-email"
                     name="email"
                     type="email"
+                    required
                     placeholder="john@example.com"
                     className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
                   />
@@ -197,27 +205,15 @@ export default function QuoteSection() {
                   id="quote-message"
                   name="message"
                   rows={4}
-                  placeholder="Tell us about your IKEA kitchen project..."
+                  placeholder="How many cabinets? Kitchen layout (L-shape, U-shape, galley)? Any countertop or appliance work needed?"
                   className="w-full resize-none rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
                 />
               </div>
               <div>
                 <label className="mb-1.5 block text-sm font-medium text-navy">
-                  Upload IKEA Plan (PDF)
+                  Upload IKEA Plan or Photos
                 </label>
-                <div className="flex items-center justify-center rounded-lg border-2 border-dashed border-gray-light p-6 transition-colors hover:border-blue/40">
-                  <div className="text-center">
-                    <p className="text-sm text-muted">
-                      Drag & drop your PDF here, or{" "}
-                      <span className="font-medium text-blue cursor-pointer">
-                        browse
-                      </span>
-                    </p>
-                    <p className="mt-1 text-xs text-muted/60">
-                      PDF up to 10MB
-                    </p>
-                  </div>
-                </div>
+                <FileUpload file={file} onFileChange={setFile} />
               </div>
 
               {error && (
@@ -232,7 +228,7 @@ export default function QuoteSection() {
                 aria-describedby={error ? "quote-form-error" : undefined}
                 className="w-full rounded-full bg-yellow py-3.5 font-semibold text-navy transition-all hover:bg-yellow/90 hover:shadow-md cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
               >
-                {submitting ? "Sending..." : "Send Quote Request"}
+                {submitting ? "Sending..." : "Get My Free Quote"}
               </button>
             </form>
           </motion.div>

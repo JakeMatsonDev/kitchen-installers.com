@@ -15,7 +15,7 @@ export default function CityCTA({ city }: { city: CityData }) {
           <p className="mx-auto mt-4 max-w-2xl text-lg text-white/70">
             Get a free, no-obligation quote for your IKEA kitchen installation in{" "}
             {city.name}, {city.stateAbbr}. Our team is ready to help bring your
-            dream kitchen to life.
+            new kitchen to life.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link

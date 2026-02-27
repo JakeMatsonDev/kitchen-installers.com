@@ -79,7 +79,7 @@ export function localBusinessJsonLd() {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
-      reviewCount: "500",
+      reviewCount: "200",
       bestRating: "5",
     },
     image: `${SITE_URL}/og-default.jpg`,
@@ -177,7 +177,7 @@ export function cityServiceJsonLd(city: CityData) {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
-      reviewCount: "500",
+      reviewCount: "200",
       bestRating: "5",
     },
   };

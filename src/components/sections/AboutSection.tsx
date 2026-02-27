@@ -9,7 +9,7 @@ import { ABOUT_FEATURES } from "@/lib/constants";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 md:py-28">
+    <section id="about" className="overflow-hidden py-20 md:py-28">
       <Container>
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Image */}
@@ -22,8 +22,8 @@ export default function AboutSection() {
           >
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
               <Image
-                src="/images/gallery/img_7877.webp"
-                alt="Completed IKEA kitchen with grey cabinets and professional gas range"
+                src="/images/gallery/img_6893.webp"
+                alt="Completed white IKEA kitchen with shaker cabinets, farmhouse sink, and stainless appliances"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -43,7 +43,7 @@ export default function AboutSection() {
             <SectionHeading
               label="Why Choose Us"
               title="Your Trusted IKEA Kitchen Installation Experts"
-              subtitle="We bring years of specialized experience in IKEA kitchen installations, ensuring every cabinet is perfectly assembled and installed."
+              subtitle="With 600+ IKEA kitchens installed across NY & NJ, our fully insured team delivers precision installation backed by a 5-year warranty."
               align="left"
             />
             <ul className="space-y-4">

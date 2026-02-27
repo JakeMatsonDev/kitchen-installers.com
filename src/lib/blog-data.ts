@@ -84,7 +84,7 @@ Here are practical ways to reduce your total cost:
 - **Shop during IKEA kitchen events** - IKEA regularly runs kitchen sales offering 15-20% off cabinet systems.
 - **Do your own demolition** - Removing old cabinets yourself can save $500 - $1,500.
 - **Pre-assemble what you can** - If you're handy, assembling some simpler cabinets can reduce labor hours.
-- **Bundle services** - Many professional installers, including our team, offer package pricing when you combine [cabinet assembly](/services/ikea-cabinet-assembly), [countertop installation](/services/countertop-installation), and [plumbing](/services/plumbing-services). Bundling typically saves 10-15%.
+- **Bundle services** - Many professional installers, including our team, offer package pricing when you combine [cabinet assembly](/services/ikea-cabinet-assembly), [countertop installation](/services/countertop-installation), and [splashback installation](/services/splashback-installation). Bundling typically saves 10-15%.
 - **Plan your layout carefully** - Changes mid-installation are expensive. Invest time upfront in the IKEA kitchen planner.
 
 ### Getting an Accurate Quote
@@ -2046,7 +2046,7 @@ Always verify your contractor's credentials before hiring. You can check NJHIC r
 - **Plumbing permits** must be pulled by the licensed plumber performing the work
 - **Electrical permits** must be pulled by the licensed electrician performing the work
 
-Professional kitchen installers like our team coordinate with licensed plumbers and electricians to ensure all permits are properly obtained. We handle the paperwork and scheduling so you don't have to.
+Professional kitchen installers like our team can advise on the sequencing of trades and what permits may be needed. You'll need to hire licensed plumbers and electricians separately for any work requiring those licenses.
 
 ### Tips for a Smooth Permit Process
 
@@ -2138,7 +2138,7 @@ The best kitchen installers share these qualities:
 1. How many IKEA kitchens have you installed?
 2. Are you NJHIC registered? (Ask for the number)
 3. Do you carry liability insurance and workers' comp?
-4. Do you handle plumbing and electrical coordination?
+4. Do you handle countertops and appliance placement?
 5. What's your warranty policy?
 6. Can you provide references from recent NJ projects?
 7. What's included in your quote — and what's extra?
@@ -2152,7 +2152,7 @@ The best kitchen installers share these qualities:
 
 ### Why Choose Kitchen Installers?
 
-We specialize exclusively in IKEA kitchen installations across New Jersey, serving [Newark](/areas/new-jersey/newark), [Jersey City](/areas/new-jersey/jersey-city), [Hoboken](/areas/new-jersey/hoboken), [Princeton](/areas/new-jersey/princeton), and 20+ other NJ communities. With 500+ kitchens installed and a 5-year warranty, we make the process stress-free. [Get your free quote today](/contact).`,
+We specialize exclusively in IKEA kitchen installations across New Jersey, serving [Newark](/areas/new-jersey/newark), [Jersey City](/areas/new-jersey/jersey-city), [Hoboken](/areas/new-jersey/hoboken), [Princeton](/areas/new-jersey/princeton), and 20+ other NJ communities. With 600+ kitchens installed and a 5-year warranty, we make the process stress-free. [Get your free quote today](/contact).`,
     relatedSlugs: ["ikea-kitchen-installation-cost", "nj-kitchen-renovation-permits", "ikea-kitchen-installation-mistakes"],
   },
 
@@ -2214,7 +2214,7 @@ We've installed SEKTION kitchens in hundreds of NYC apartments, from tiny [Manha
     category: "Planning Guide",
     content: `## Kitchen Renovation Timeline: What to Expect
 
-One of the most common questions we get is "how long will my kitchen renovation take?" Here's a realistic timeline based on our experience with 500+ IKEA kitchen installations.
+One of the most common questions we get is "how long will my kitchen renovation take?" Here's a realistic timeline based on our experience with 600+ IKEA kitchen installations.
 
 ### Phase 1: Planning & Design (2-4 Weeks)
 

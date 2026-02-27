@@ -7,7 +7,6 @@ import Footer from "@/components/layout/Footer";
 import JsonLd from "@/components/seo/JsonLd";
 import { localBusinessJsonLd, siteNavigationJsonLd } from "@/lib/structured-data";
 import GoogleAnalytics, { GTMNoScript } from "@/components/analytics/GoogleAnalytics";
-import ExitIntentPopup from "@/components/ui/ExitIntentPopup";
 import MotionProvider from "@/components/ui/MotionProvider";
 
 const inter = Inter({
@@ -60,9 +59,15 @@ export const metadata: Metadata = {
   },
   // Item #4: Icons
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
     apple: "/apple-touch-icon.png",
   },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -96,7 +101,6 @@ export default function RootLayout({
           <Footer />
 
           {/* Item #18: Exit-intent popup */}
-          <ExitIntentPopup />
         </MotionProvider>
 
         {/* Item #25: Live chat widget — replace with your Tidio/Intercom project ID */}

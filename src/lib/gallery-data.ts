@@ -259,4 +259,25 @@ export const galleryProjects: GalleryProject[] = [
       "/images/gallery/img_5714.webp",
     ],
   },
+  {
+    id: "walnut-white-island-kitchen",
+    title: "Walnut & White Kitchen with Island",
+    service: "Full Kitchen Install",
+    description:
+      "Large walnut-toned IKEA kitchen with white upper cabinets, glass-front doors, and peninsula island — installation in progress.",
+    images: [
+      "/images/gallery/img_6067.webp",
+      "/images/gallery/img_6088.webp",
+    ],
+  },
+  {
+    id: "pax-wardrobe-bedroom",
+    title: "Built-In PAX Wardrobe System",
+    service: "Cabinet Assembly",
+    description:
+      "Custom IKEA PAX wardrobe wall with shaker doors, internal drawers, TV nook, and adjustable shelving in a bedroom.",
+    images: [
+      "/images/gallery/img_3739.webp",
+    ],
+  },
 ];

@@ -11,8 +11,8 @@ export default function TestimonialsSection() {
       <Container>
         <SectionHeading
           label="Testimonials"
-          title="What Our Customers Say"
-          subtitle="Don't just take our word for it — hear from homeowners who love their new IKEA kitchens."
+          title="Trusted by 200+ Homeowners Across NY & NJ"
+          subtitle="See why homeowners rate us 4.9 out of 5 stars for IKEA kitchen installation."
         />
         <div className="grid gap-6 md:grid-cols-3">
           {TESTIMONIALS.map((t, i) => (

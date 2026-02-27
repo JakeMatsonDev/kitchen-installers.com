@@ -12,7 +12,7 @@ import { ABOUT_FEATURES } from "@/lib/constants";
 export const metadata: Metadata = buildMetadata({
   title: "About Us — IKEA Kitchen Installation Experts | Kitchen Installers",
   description:
-    "Learn about Kitchen Installers — your trusted IKEA kitchen cabinet installation specialists serving New York and New Jersey. 500+ kitchens installed, 5-year warranty.",
+    "Learn about Kitchen Installers — your trusted IKEA kitchen cabinet installation specialists serving New York and New Jersey. 600+ kitchens installed, 5-year warranty.",
   path: "/about",
 });
 
@@ -43,14 +43,14 @@ export default function AboutPage() {
                 Your Trusted IKEA Kitchen Installation Experts
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-muted">
-                We specialize exclusively in IKEA kitchen cabinet installation across New York and New Jersey. With over 500 kitchens installed and a 5-year warranty on all work, we&apos;re the team homeowners trust for their kitchen renovations.
+                We specialize exclusively in IKEA kitchen cabinet installation across New York and New Jersey. With over 600 kitchens installed, 7+ years in business, and a 5-year warranty on all work, we&apos;re the team homeowners trust for their kitchen renovations.
               </p>
             </div>
           </Container>
         </div>
       </section>
 
-      <section className="py-16 md:py-24">
+      <section className="overflow-hidden py-16 md:py-24">
         <Container>
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
             <div className="relative">
@@ -71,7 +71,7 @@ export default function AboutPage() {
                 Why Choose Kitchen Installers?
               </h2>
               <p className="mb-6 text-[15px] leading-relaxed text-muted">
-                We bring years of specialized experience in IKEA kitchen installations, ensuring every cabinet is perfectly assembled and installed. Our team understands the IKEA SEKTION system inside and out, and we handle all the complexities — from plumbing coordination to bulkhead construction.
+                With 600+ IKEA kitchens installed across NY &amp; NJ, our team understands the SEKTION system inside and out. We&apos;re fully insured so your home is protected throughout the project, and every installation comes with a 5-year warranty.
               </p>
               <ul className="space-y-4">
                 {ABOUT_FEATURES.map((feature, i) => (
@@ -88,18 +88,22 @@ export default function AboutPage() {
 
       <section className="bg-off-white py-16 md:py-24">
         <Container>
-          <div className="grid gap-8 md:grid-cols-3 text-center">
+          <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4 text-center">
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <p className="font-jakarta text-4xl font-bold text-blue">500+</p>
+              <p className="font-jakarta text-4xl font-bold text-blue">600+</p>
               <p className="mt-2 text-muted">Kitchens Installed</p>
             </div>
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <p className="font-jakarta text-4xl font-bold text-blue">55+</p>
-              <p className="mt-2 text-muted">Cities Served in NY & NJ</p>
+              <p className="font-jakarta text-4xl font-bold text-blue">7+</p>
+              <p className="mt-2 text-muted">Years in Business</p>
             </div>
             <div className="rounded-2xl bg-white p-8 shadow-sm">
-              <p className="font-jakarta text-4xl font-bold text-blue">2 Yr</p>
+              <p className="font-jakarta text-4xl font-bold text-blue">5 Yr</p>
               <p className="mt-2 text-muted">Warranty on All Work</p>
+            </div>
+            <div className="rounded-2xl bg-white p-8 shadow-sm">
+              <p className="font-jakarta text-4xl font-bold text-blue">200+</p>
+              <p className="mt-2 text-muted">5-Star Reviews</p>
             </div>
           </div>
         </Container>
@@ -148,13 +152,13 @@ export default function AboutPage() {
               Ready to Start Your Kitchen Project?
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg text-white/70">
-              Send us your IKEA kitchen plan and get a free, no-obligation quote within 24 hours.
+              Send us your IKEA kitchen plan and get a free, no-obligation quote within 3 hours.
             </p>
             <Link
               href="/contact"
               className="mt-8 inline-flex items-center justify-center rounded-full bg-yellow px-9 py-4 text-lg font-semibold text-navy transition-all hover:bg-yellow/90"
             >
-              Get a Free Quote
+              Request Your Free Quote
             </Link>
           </div>
         </Container>

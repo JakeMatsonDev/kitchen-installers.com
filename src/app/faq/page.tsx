@@ -44,7 +44,7 @@ function getAllFAQs(): { category: string; items: FAQItemType[] }[] {
         {
           question: "Do you offer free quotes?",
           answer:
-            "Yes! We provide free, no-obligation quotes for all IKEA kitchen installation projects. Simply send us your IKEA kitchen plan and we'll provide a detailed cost breakdown within 24 hours.",
+            "Yes! We provide free, no-obligation quotes for all IKEA kitchen installation projects. Simply send us your IKEA kitchen plan and we'll provide a detailed cost breakdown within 3 hours.",
         },
         {
           question: "What payment methods do you accept?",

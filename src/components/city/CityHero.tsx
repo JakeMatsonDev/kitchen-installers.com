@@ -29,7 +29,7 @@ export default function CityHero({ city }: { city: CityData }) {
           <div className="mt-10 flex flex-wrap items-center gap-6 text-sm text-muted">
             <div className="flex items-center gap-2">
               <div className="h-2 w-2 rounded-full bg-green-500" aria-hidden="true" />
-              500+ Kitchens Installed
+              600+ Kitchens Installed
             </div>
             <div className="flex items-center gap-2">
               <div className="h-2 w-2 rounded-full bg-green-500" aria-hidden="true" />

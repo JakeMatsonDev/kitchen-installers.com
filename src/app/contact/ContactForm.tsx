@@ -3,10 +3,12 @@
 
 import { useState, FormEvent } from "react";
 import { useRouter } from "next/navigation";
+import FileUpload from "@/components/ui/FileUpload";
 
 export default function ContactForm() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
+  const [file, setFile] = useState<File | null>(null);
   const router = useRouter();
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
@@ -19,21 +21,21 @@ export default function ContactForm() {
 
     // Item #6: Honeypot spam protection — if filled, it's a bot
     if (formData.get("website")) {
-      // Silently reject
       setSubmitting(false);
       return;
     }
 
     try {
+      const payload = new FormData();
+      payload.append("email", formData.get("email") as string);
+      payload.append("serviceArea", formData.get("serviceArea") as string);
+      payload.append("message", formData.get("message") as string);
+      payload.append("source", "contact");
+      if (file) payload.append("attachment", file);
+
       const res = await fetch("/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          email: formData.get("email"),
-          serviceArea: formData.get("serviceArea"),
-          message: formData.get("message"),
-          source: "contact",
-        }),
+        body: payload,
       });
 
       if (!res.ok) {
@@ -70,12 +72,13 @@ export default function ContactForm() {
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
           <label htmlFor="contact-email" className="mb-1.5 block text-sm font-medium text-navy">
-            Email
+            Email <span className="text-red-500">*</span>
           </label>
           <input
             id="contact-email"
             name="email"
             type="email"
+            required
             placeholder="john@example.com"
             className="w-full rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
           />
@@ -101,23 +104,15 @@ export default function ContactForm() {
           id="contact-message"
           name="message"
           rows={4}
-          placeholder="Tell us about your IKEA kitchen project..."
+          placeholder="How many cabinets? Kitchen layout (L-shape, U-shape, galley)? Any countertop or appliance work needed?"
           className="w-full resize-none rounded-lg border border-gray-light px-4 py-3 text-sm text-navy outline-none focus-visible:ring-2 focus-visible:ring-blue transition-colors focus:border-blue"
         />
       </div>
       <div>
         <label className="mb-1.5 block text-sm font-medium text-navy">
-          Upload IKEA Plan (PDF)
+          Upload IKEA Plan or Photos
         </label>
-        <div className="flex items-center justify-center rounded-lg border-2 border-dashed border-gray-light p-6 transition-colors hover:border-blue/40">
-          <div className="text-center">
-            <p className="text-sm text-muted">
-              Drag & drop your PDF here, or{" "}
-              <span className="font-medium text-blue cursor-pointer">browse</span>
-            </p>
-            <p className="mt-1 text-xs text-muted/60">PDF up to 10MB</p>
-          </div>
-        </div>
+        <FileUpload file={file} onFileChange={setFile} />
       </div>
 
       {error && (

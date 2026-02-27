@@ -282,7 +282,7 @@ export const newJerseyCities: CityData[] = [
         question:
           "Do you install IKEA kitchen islands in Elizabeth homes?",
         answer:
-          "Yes, kitchen islands are one of our most requested installation services. We securely anchor IKEA island configurations to the floor, connect any plumbing or electrical as needed, and ensure proper clearance around all sides. Elizabeth homes with open-plan kitchen and dining areas are ideal candidates for an island installation.",
+          "Yes, kitchen islands are one of our most requested installation services. We securely anchor IKEA island configurations to the floor and ensure proper clearance around all sides. If your island requires plumbing or electrical connections, you'll need a licensed plumber or electrician for that work. Elizabeth homes with open-plan kitchen and dining areas are ideal candidates for an island installation.",
       },
       {
         question:

@@ -42,7 +42,7 @@ export default function BlogPage() {
                 Kitchen Installation Blog
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-muted">
-                Expert tips, cost guides, and practical advice for your IKEA kitchen installation project. Learn from our experience of 500+ kitchen installations across NY and NJ.
+                Expert tips, cost guides, and practical advice for your IKEA kitchen installation project. Learn from our experience of 600+ kitchen installations across NY and NJ.
               </p>
             </div>
           </Container>

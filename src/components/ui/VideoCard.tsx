@@ -21,7 +21,7 @@ export default function VideoCard({ project }: { project: VideoProject }) {
   }
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-gray-light bg-white shadow-sm">
+    <div className="overflow-hidden rounded-xl border border-gray-light bg-white shadow-sm md:rounded-2xl">
       <div className="relative cursor-pointer" onClick={handlePlay}>
         <video
           ref={videoRef}
@@ -33,13 +33,13 @@ export default function VideoCard({ project }: { project: VideoProject }) {
           onPlay={() => setIsPlaying(true)}
           onPause={() => setIsPlaying(false)}
           onEnded={() => setIsPlaying(false)}
-          className="aspect-video w-full bg-navy/5 object-cover"
+          className="aspect-[4/3] w-full bg-navy/5 object-cover md:aspect-video"
         />
         {!isPlaying && (
           <div className="absolute inset-0 flex items-center justify-center bg-navy/20 transition-colors hover:bg-navy/30">
-            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white/90 shadow-lg transition-transform hover:scale-110">
+            <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white/90 shadow-lg transition-transform hover:scale-110 md:h-16 md:w-16">
               <svg
-                className="ml-1 h-7 w-7 text-navy"
+                className="ml-1 h-9 w-9 text-navy md:h-7 md:w-7"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -49,16 +49,16 @@ export default function VideoCard({ project }: { project: VideoProject }) {
           </div>
         )}
       </div>
-      <div className="p-5">
-        <div className="mb-2 flex items-center gap-2 text-xs">
+      <div className="p-3 sm:p-4 md:p-5">
+        <div className="mb-1.5 flex items-center gap-2 text-xs md:mb-2">
           <span className="rounded-full bg-yellow/20 px-2.5 py-0.5 font-semibold text-navy">
             {project.service}
           </span>
         </div>
-        <h3 className="mb-1 font-jakarta text-lg font-bold text-navy">
+        <h3 className="mb-0.5 font-jakarta text-base font-bold text-navy md:mb-1 md:text-lg">
           {project.title}
         </h3>
-        <p className="text-sm leading-relaxed text-muted">
+        <p className="text-xs leading-relaxed text-muted sm:text-sm">
           {project.description}
         </p>
       </div>

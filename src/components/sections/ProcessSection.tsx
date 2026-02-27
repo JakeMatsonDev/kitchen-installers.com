@@ -18,7 +18,7 @@ export default function ProcessSection() {
       <Container>
         <SectionHeading
           label="How It Works"
-          title="3 Simple Steps to Your Dream Kitchen"
+          title="3 Simple Steps to Your New Kitchen"
           subtitle="Our streamlined process makes IKEA kitchen installation easy and stress-free."
         />
         <div className="grid gap-8 md:grid-cols-3">

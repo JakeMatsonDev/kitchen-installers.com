@@ -9,7 +9,7 @@ import { SITE_CONFIG } from "@/lib/site-config";
 export const metadata: Metadata = buildMetadata({
   title: "Thank You — Kitchen Installers",
   description:
-    "Thank you for contacting Kitchen Installers. We'll review your request and get back to you within 24 hours.",
+    "Thank you for contacting Kitchen Installers. We'll review your request and get back to you within 3 hours.",
   path: "/thank-you",
 });
 
@@ -27,7 +27,7 @@ export default function ThankYouPage() {
             </h1>
             <p className="mt-4 text-lg leading-relaxed text-muted">
               Your request has been received. Our team will review your project
-              details and get back to you within 24 hours with a detailed quote.
+              details and get back to you within 3 hours with a detailed quote.
             </p>
           </div>
         </Container>
@@ -45,11 +45,11 @@ export default function ThankYouPage() {
                   <Clock size={24} className="text-navy" />
                 </div>
                 <h3 className="mb-2 font-jakarta font-bold text-navy">
-                  Within 24 Hours
+                  Quote Within 3 Hours
                 </h3>
                 <p className="text-sm text-muted">
-                  We&apos;ll review your IKEA kitchen plan and prepare a detailed
-                  quote with a full cost breakdown.
+                  We&apos;re already reviewing your IKEA kitchen plan. Expect a
+                  detailed quote with a full cost breakdown — no hidden fees.
                 </p>
               </div>
               <div className="rounded-2xl border border-gray-light bg-white p-6 text-center">
@@ -57,11 +57,11 @@ export default function ThankYouPage() {
                   <Phone size={24} className="text-navy" />
                 </div>
                 <h3 className="mb-2 font-jakarta font-bold text-navy">
-                  Consultation Call
+                  Personal Consultation
                 </h3>
                 <p className="text-sm text-muted">
-                  A team member will call to discuss your project, answer
-                  questions, and confirm the timeline.
+                  A team member will call to walk through your quote, answer
+                  questions, and suggest ways to optimize your layout.
                 </p>
               </div>
               <div className="rounded-2xl border border-gray-light bg-white p-6 text-center">
@@ -69,11 +69,11 @@ export default function ThankYouPage() {
                   <CheckCircle size={24} className="text-navy" />
                 </div>
                 <h3 className="mb-2 font-jakarta font-bold text-navy">
-                  Schedule Install
+                  Pick Your Install Date
                 </h3>
                 <p className="text-sm text-muted">
-                  Once you approve the quote, we&apos;ll schedule your installation
-                  at a date that works for you.
+                  Once you approve the quote, choose a date that works for you.
+                  Most kitchens are completed in just 1–3 days.
                 </p>
               </div>
             </div>

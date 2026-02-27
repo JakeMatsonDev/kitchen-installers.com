@@ -9,7 +9,6 @@ export const NAV_LINKS: NavLink[] = [
       { label: "Countertop Installation", href: "/services/countertop-installation" },
       { label: "Appliance Installation", href: "/services/appliance-installation" },
       { label: "Kitchen Removal", href: "/services/kitchen-removal" },
-      { label: "Trade Coordination", href: "/services/trade-coordination" },
       { label: "Splashback Installation", href: "/services/splashback-installation" },
       { label: "Bulkhead Construction", href: "/services/bulkhead-construction" },
       { label: "Packaging & Cleanup", href: "/services/packaging-cleanup" },
@@ -58,13 +57,6 @@ export const SERVICES: Service[] = [
       "Complete removal and disposal of your old kitchen cabinets, countertops, and appliances before new installation.",
   },
   {
-    icon: "Users",
-    title: "Trade Coordination",
-    slug: "trade-coordination",
-    description:
-      "We coordinate with plumbers, electricians, and other trades to ensure a smooth and efficient kitchen installation.",
-  },
-  {
     icon: "PaintBucket",
     title: "Splashback Installation",
     slug: "splashback-installation",
@@ -92,21 +84,21 @@ export const PROCESS_STEPS: ProcessStep[] = [
     step: 1,
     title: "Upload Your IKEA Plan",
     description:
-      "Send us your IKEA kitchen plan PDF or share your order details. We'll review your design and measurements.",
+      "Send us your IKEA kitchen plan PDF or order details — takes just 2 minutes. We'll review your design and measurements for free.",
     icon: "Upload",
   },
   {
     step: 2,
     title: "Get Your Free Quote",
     description:
-      "We'll provide a detailed, transparent quote based on your kitchen plan. No hidden fees or surprises.",
+      "Within 3 hours, you'll receive a detailed, transparent quote with a full cost breakdown. No hidden fees or surprises.",
     icon: "FileText",
   },
   {
     step: 3,
     title: "Professional Installation",
     description:
-      "Our experienced team installs your IKEA kitchen with precision and care, typically completing within 1-3 days.",
+      "Our fully insured team installs your IKEA kitchen with precision and care, completing most kitchens in just 1–3 days.",
     icon: "CheckCircle",
   },
 ];
@@ -119,21 +111,21 @@ export const TESTIMONIALS: Testimonial[] = [
     location: "Brooklyn, NY",
     rating: 5,
     quote:
-      "Absolutely fantastic service! The team installed our entire IKEA kitchen in just two days. Everything is perfectly aligned and the quality of work is outstanding. Highly recommend!",
+      "Absolutely fantastic service! The team installed our 28-cabinet IKEA SEKTION kitchen in just two days. Every door is perfectly aligned and the soft-close drawers work flawlessly. Highly recommend!",
   },
   {
     name: "James & Linda K.",
     location: "Hoboken, NJ",
     rating: 5,
     quote:
-      "We were nervous about the IKEA kitchen installation, but these guys made it completely stress-free. Professional, punctual, and the finished kitchen looks amazing. Worth every penny.",
+      "We were nervous about our L-shaped IKEA kitchen installation, but these guys made it completely stress-free. They showed up on time, handled the bulkhead construction beautifully, and the finished kitchen looks incredible. Worth every penny.",
   },
   {
     name: "Michael T.",
     location: "Manhattan, NY",
     rating: 5,
     quote:
-      "From quote to completion, the entire process was smooth and transparent. They handled all the coordination with our plumber and electrician. Our new kitchen is beautiful!",
+      "Got our quote within 2 hours and installation was done in a day and a half. The attention to detail was incredible — perfect countertop seams and every cabinet is level. Our new kitchen looks like it cost twice what we paid.",
   },
 ];
 
@@ -156,7 +148,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "Do you handle plumbing and electrical work?",
     answer:
-      "We coordinate with licensed plumbers and electricians as part of our service. We'll arrange for all necessary plumbing and electrical work to be completed alongside your cabinet installation for a seamless experience.",
+      "We specialize in cabinet assembly and installation. For plumbing and electrical work, you'll need to arrange a licensed plumber or electrician separately. We're happy to advise on the sequencing so everything goes smoothly.",
   },
   {
     question: "What areas do you serve?",
@@ -171,10 +163,10 @@ export const FAQ_ITEMS: FAQItem[] = [
 ];
 
 export const ABOUT_FEATURES = [
-  "Experienced IKEA kitchen installation specialists",
-  "Over 500+ kitchens installed across NY & NJ",
-  "Fully insured and background-checked team",
+  "Experienced IKEA SEKTION system specialists",
+  "Over 600+ kitchens installed across NY & NJ",
+  "Fully insured — your home is protected throughout the project",
   "Transparent pricing with no hidden fees",
   "5-year warranty on all installation work",
-  "Coordination with plumbers & electricians included",
+  "7+ years of specialized IKEA kitchen experience",
 ];

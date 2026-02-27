@@ -11,7 +11,7 @@ import ContactForm from "./ContactForm";
 export const metadata: Metadata = buildMetadata({
   title: "Contact Us — Get a Free IKEA Kitchen Installation Quote",
   description:
-    "Request a free quote for IKEA kitchen installation in New York or New Jersey. Send us your IKEA plan and get a detailed estimate within 24 hours.",
+    "Request a free quote for IKEA kitchen installation in New York or New Jersey. Send us your IKEA plan and get a detailed estimate within 3 hours.",
   path: "/contact",
 });
 
@@ -39,7 +39,7 @@ export default function ContactPage() {
                 Get a Free Quote
               </h1>
               <p className="mt-5 text-lg leading-relaxed text-muted">
-                Send us your IKEA kitchen plan and we&apos;ll provide a detailed, no-obligation quote within 24 hours. We serve all of New York and New Jersey.
+                Send us your IKEA kitchen plan and we&apos;ll provide a detailed, no-obligation quote within <strong className="text-navy">3 hours</strong>. Fully insured team serving all of New York and New Jersey.
               </p>
             </div>
           </Container>
@@ -109,7 +109,7 @@ export default function ContactPage() {
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="h-1.5 w-1.5 rounded-full bg-blue flex-shrink-0" />
-                    Response within 24 hours
+                    Response within 3 hours
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="h-1.5 w-1.5 rounded-full bg-blue flex-shrink-0" />
